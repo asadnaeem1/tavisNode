@@ -8,7 +8,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.status(200);
   res.json({
-    status: "Backend Is Working!",
+    status: "Backend Is Working!!",
   });
 });
 
